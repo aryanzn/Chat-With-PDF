@@ -32,9 +32,10 @@ This project is a Streamlit-based application that allows users to upload multip
 To deploy this project run
 
 1. **Clone the Repository**:
-   ```bash
+```bash
    git clone https://github.com/your-repository/chat-with-pdf.git
    cd chat-with-pdf
+```
 2. **Set Up a Virtual Environment:**
 
 ```bash
@@ -47,15 +48,15 @@ venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 ```
 4. **Add New API Key:**
-
+   
 You need to have new API Key to run the program on your local computer.
 Here is the link for new API Key https://aistudio.google.com/app/apikey.
 
 - Create a .env file in the root directory.
 - Add the following line to the .env file:
-  ```bash
+- ```bash
   GOOGLE_API_KEY="your_google_api_key"
-  ```
+```
 
 5. **Run the Application:**
 ```bash
