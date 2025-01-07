@@ -48,10 +48,14 @@ pip install -r requirements.txt
 ```
 4. **Add New API Key:**
 
-You need to get new API Key to run the code on your local computer.
-Here is the link https://aistudio.google.com/app/apikey.
+You need to have new API Key to run the program on your local computer.
+Here is the link for new API Key https://aistudio.google.com/app/apikey.
 
-Change the GOOGLE_API_KEY in .env file to designated apikey you get from the link.
+- Create a .env file in the root directory.
+- Add the following line to the .env file:
+  ```bash
+  GOOGLE_API_KEY="your_google_api_key"
+  ```
 
 5. **Run the Application:**
 ```bash
