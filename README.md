@@ -54,11 +54,12 @@ Here is the link for new API Key https://aistudio.google.com/app/apikey.
 
 - Create a .env file in the root directory.
 - Add the following line to the .env file:
-- ```bash
+ ```bash
   GOOGLE_API_KEY="your_google_api_key"
 ```
 
 5. **Run the Application:**
+
 ```bash
 streamlit run app.py
 ```
@@ -83,7 +84,7 @@ To run the application, do following steps:
 ## Demo
 
 Here is the video demo link
-```bash
+
 https://drive.google.com/file/d/1KtoQ_yVlETZIUcx3KwzYq2mqLAfcRcNg/view?usp=sharing
-```
+
 
